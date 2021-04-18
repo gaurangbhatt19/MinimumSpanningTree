@@ -1,19 +1,17 @@
 let vertices=[];
+// Canvas Resolution
 function setup() {
   createCanvas(1280, 500);
 }
-function Reset(){
- clear();
-}
+// Check for mouse click
 function mousePressed()
 {
-  if(mouseX+mouseY<1680){
+
 var v=createVector(mouseX,mouseY);
 vertices.push(v);
-console.log("MousePressed");
-  }
+  
 }
-
+// Drawing Nodes and line for Spanning Tree
 function draw() {
   background(10);
   var reached =[];
@@ -52,7 +50,7 @@ function draw() {
   for(var i=0; i< vertices.length; i++){
     fill(255,128,0);
    stroke(255);
-    ellipse(vertices[i].x, vertices[i].y,25,25);
+    ellipse(vertices[i].x, vertices[i].y,40,40);
     fill(255, 255, 255);
     text(i,vertices[i].x-5, vertices[i].y+4);
     
