@@ -7,9 +7,11 @@ function Reset(){
 }
 function mousePressed()
 {
+  if(mouseX+mouseY<1480){
 var v=createVector(mouseX,mouseY);
 vertices.push(v);
 console.log("MousePressed");
+  }
 }
 
 function draw() {
