@@ -1,6 +1,6 @@
 let vertices=[];
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(1080, 400);
 }
 function Reset(){
  clear();
