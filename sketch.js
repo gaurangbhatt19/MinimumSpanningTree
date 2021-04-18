@@ -52,7 +52,7 @@ function draw() {
    stroke(255);
     ellipse(vertices[i].x, vertices[i].y,40,40);
     fill(255, 255, 255);
-    text(i,vertices[i].x-5, vertices[i].y+4);
+    text(i+1,vertices[i].x-5, vertices[i].y+4);
     
   }
 }
