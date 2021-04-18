@@ -1,0 +1,32 @@
+html, body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:yellow;
+}
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px;
+}
+button:hover{
+  background-color: #e64820;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
