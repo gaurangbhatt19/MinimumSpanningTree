@@ -7,7 +7,7 @@ function Reset(){
 }
 function mousePressed()
 {
-  if(mouseX+mouseY<1480){
+  if(mouseX+mouseY<1680){
 var v=createVector(mouseX,mouseY);
 vertices.push(v);
 console.log("MousePressed");
@@ -50,7 +50,7 @@ function draw() {
   }
 
   for(var i=0; i< vertices.length; i++){
-    fill(255);
+    fill(255,128,0);
    stroke(255);
     ellipse(vertices[i].x, vertices[i].y,16,16);
     
